@@ -80,3 +80,7 @@ To exlore and evaluate new patterns by playing around with code.
 The primary difference is that code using this pattern does not even take dependency on an interface signature, but since 
 request handlers inherently have a dependency on the signature of the requests and queries they use, that's arguably not a 
 benefit.
+
+### This breaks CQS!
+
+Yes. It absolutely does break CQS.
